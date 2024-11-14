@@ -1,0 +1,29 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.outerListBox {
+	background-color: antiquewhite;
+	width: 650px;
+	border: 2px;
+}
+
+.innerListItem {
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
+}
+
+.outer {
+	display: flex;
+	justify-content: center;
+}
+
+.buttonGrp {
+	display: flex;
+	justify-content: space-around;
+}
+
+.todoOuter {
+	margin: 60px;
+}
